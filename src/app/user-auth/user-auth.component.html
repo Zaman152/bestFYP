@@ -1,1 +1,35 @@
-<p>user-auth works!</p>
+<!-- user-auth.component.html -->
+<app-header></app-header>
+<app-home></app-home>
+<div class="user-auth">
+    <h1>User Signup</h1>
+    <form class="common-form" (ngSubmit)="signup(signUp)">
+        <input type="text" class="form-input" name="name" placeholder="Enter User Name" ngModel />
+        <input type="text" class="form-input" name="email" placeholder="Enter User Email" ngModel />
+        <input type="password" class="form-input" name="password" placeholder="Enter User Password" ngModel />
+        <button class="form-button">Sign Up</button>
+        <p>Already Have Account ? <a (click)="openLogin()">Click Here</a></p>
+    </form>
+</div>
+<div *ngIf="showLogin" class="login">
+    <h1>User Login</h1>
+    <form class="common-form" (ngSubmit)="login()">
+        <input
+            type="text"
+            class="form-input"
+            name="email"
+            placeholder="Enter User Email"
+            ngModel
+            email
+            required
+        />
+        <input
+            type="password"
+            class="form-input"
+            name="password"
+            placeholder="Enter User Password"
+            ngModel
+            required
+        />
+    </form>
+</div>
