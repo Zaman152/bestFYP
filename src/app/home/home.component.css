@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  nav {
+  
+    padding-left: 65%;
+   
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+/*   
+  nav li {
+    margin: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  h1,
+  nav {
+    display: inline-block;
+  }
+  
+  .icon1,
+  .icon2 {
+    color: white;
+  } */
+  
+.body-bigtext {
+    font-size: 70px;
+    padding-left: 250px;
+    line-height: 0.5;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.green-text {
+    color: green;
+}
+
+.machine {
+    color: yellow;
+}
+.small-text
+{
+    font-size: 25px;
+    padding-left: 250px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.button-style {
+  text-decoration: none; 
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+
+.GetStartedBtn {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block; 
+  margin-left: 20px; 
+}
+.PlayBtn,
+.watch-intro-video {
+  display: inline-block;
+  margin-left: 25px; 
+  font-size: 20px;
+}
+
+.play-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.GetStartedBtn,
+.PlayBtn,
+.watch-intro-video {
+  position: relative;
+  z-index: 1; 
+}
+
+/* Services CSS */
+/* .box {
+
+  display: inline-block;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: gray;
+  box-shadow: 0px 5px 10px black;
+}
+
+.box img {
+  height: 100px;
+  width: 100px;
+}
+
+.box h4 {
+  color: orange;
+  padding: 10px 0px;
+  font-size: 20px;
+
+}
+
+.box p {
+  color: whitesmoke;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.Ski {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minimax(270px, 1fr));
+}
+.wrapper {
+  margin: 10px auto;
+  padding: 0 10%;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+} */
