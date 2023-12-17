@@ -5,12 +5,10 @@
     <ul>
       <li><a routerLink="/">Home</a></li>
       <li><a routerLink="/about">About</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="/services">Services</a></li>
       <li><fa-icon [icon]="icon1" class="icon1"></fa-icon></li>
       <li><fa-icon [icon]="icon2" class="icon2"></fa-icon></li>
-      <li *ngIf="homeComponent"><a (click)="toggleSignup()" routerLink="/user-auth" class="SignInbtn">Sign In</a></li>
-      
-      <li *ngIf="!homeComponent"><a (click)="toggleSignup()" routerLink="/user-auth" class="SignInbtn">Sign In</a></li>
-    </ul>
+      <li routerLink="/user-auth" class="SignInbtn">Sign In</li>
+      </ul>
   </nav>
 </div>

@@ -9,19 +9,19 @@ import { Component, OnInit } from '@angular/core';
 export class UserAuthComponent implements OnInit {
   showLogin: boolean = true;
   authError: string = "";
-  signUp: SignUp = { name: "", email: "", password: "" };
-  loginData: Login = { email: "", password: "" }; 
+  // signUp: SignUp = { name: "", email: "", password: "" };
+  // loginData: Login = { email: "", password: "" }; 
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  signup(data: SignUp) {
+  SignUp(data: object) {
     console.warn(data);
   }
 
-  login() {
-    console.warn(this.loginData);
+  Login(data : object) {
+    console.warn(data);
   }
 
   openSignUp() {

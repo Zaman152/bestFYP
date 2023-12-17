@@ -7,6 +7,8 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './header/header.component';
 import { LayoutComponent } from './layout/layout.component';
+import { ServicesComponent } from './services/services.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,14 @@ import { LayoutComponent } from './layout/layout.component';
     HomeComponent,
     UserAuthComponent,
     HeaderComponent,
-    LayoutComponent
+    LayoutComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration()

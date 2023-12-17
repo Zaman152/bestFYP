@@ -1,0 +1,48 @@
+.box {
+    display: inline-block;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    box-shadow: 0px 5px 10px black;
+    margin: 60px 60px 60px 60px; /* Adjust the margin as needed for spacing */
+  }
+  
+  .box img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .box h4 {
+    color: orange;
+    padding: 10px 0px;
+    font-size: 20px;
+  }
+  
+  .box p {
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  .Ski {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 60px;
+  padding-bottom: 40px;
+  }
+  .container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minimax(270px, 1fr));
+  }
+  .wrapper {
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 200px; /* Increase the bottom padding as needed */
+    text-transform: capitalize;
+  }
+  .flex-box-container {
+    margin-bottom: 50px; /* Add bottom margin as needed */
+  }
